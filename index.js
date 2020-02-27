@@ -124,10 +124,14 @@ return `Playing with ${this.favoriteToy}`
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. global binding
+  the value of this if not nested is global context
+  2. implicit binding
+ the value of this if nested in a function
+  3. new binding
+ the value of this if nested in a constructor function
+  4. explicit binding
+  whenever a call or apply method is used
 */
 
 
